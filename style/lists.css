@@ -1,0 +1,40 @@
+.hs{
+	width: 2000px;
+	margin: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.left-arrow{
+	width:22px;
+	height:197px;
+	display:block;
+	float:left;
+    margin-top: 80px;
+}
+
+.right-arrow{
+	width:22px;
+	height:197px;
+	display:block;
+	margin-left:12px;
+	float:left;
+    margin-top: 80px;
+}
+
+.hs ul li{
+	width:300px;
+	float:left;
+	margin: 12px;
+    display: inline-flex;
+}
+
+.showcase {
+    /* Set it so we could calculate the offsetLeft */
+    position: relative;
+    height: 500px;
+    width: 1600px;
+    /* Add scroll-bars */
+    overflow: auto;
+    float:left;
+}
